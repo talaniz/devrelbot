@@ -14,8 +14,8 @@ Project setup consists of creating a Slack bot and setting up a local environmen
 * Create a virtualenv, `python3 -m venv /path/to/env`.
 * Install pre-requisites, `cd env && pip -r install requirements.txt`.
   
-  ## Running the project
-  * In a terminal window, run `ngrok http 5000`.
-  * Take the resulting domain name and add it as the Request URL in [Event Subscriptions](https://api.slack.com/apps/A015T8ETJ92/event-subscriptions?) (ex. - `https://597dd46b15c8.ngrok.io/slack/events`).
-  * Change into the project directory and run `flask run`.
-  * Join a channel to see the bot send a direct welcome message.
+## Running the project
+* In a terminal window, run `ngrok http 5000`.
+* Take the resulting domain name and add it as the Request URL in [Event Subscriptions](https://api.slack.com/apps/A015T8ETJ92/event-subscriptions?) (ex. - `https://597dd46b15c8.ngrok.io/slack/events`).
+* Change into the project directory and run `flask run`.
+* Join a channel to see the bot send a direct welcome message.
